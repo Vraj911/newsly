@@ -10,7 +10,7 @@ export default function NewsApp() {
   const { loadNews } = useNews();
   useEffect(() => {
     loadNews(search);
-  }, []);
+  }, []);//const VITE_NEWS_API_KEY = "03abb84ba7454211b2707ba668babdc4";
   return (
     <>
       <Navbar />
